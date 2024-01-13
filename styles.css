@@ -1,0 +1,26 @@
+/*components*/
+@import "css/components/screen-header.css";
+@import "css/components/border-line.css";
+@import "css/components/profile.css";
+@import "css/components/main-header.css";
+@import "css/components/ad.css";
+@import "css/components/nav-bar.css";
+
+
+/*screens*/
+@import "css/screens/friends.css";
+@import "css/screens/chat.css";
+@import "css/screens/chat-branch.css";
+@import "css/screens/shopping.css";
+
+@import "variables.css";
+@import "reset.css";
+
+body {
+    height: 1000vh;
+    width: 400px;
+    position: relative;
+}
+main {
+    padding: 15px;
+}

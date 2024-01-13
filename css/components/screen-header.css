@@ -1,0 +1,19 @@
+header {
+    position: fixed;
+    width: 420px;
+    height: 60px;
+    background-color: white;
+}
+.screen-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 0, 0, 0.7);
+    margin: 15px 18px;
+    z-index: 4;
+}
+
+.screen-header__icons i{
+    padding-left: 5px;
+}
+

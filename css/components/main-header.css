@@ -1,0 +1,31 @@
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    width: 390px;
+}
+.main-header__title {
+    font-size: 20px;
+    font-weight: bold;
+}
+.main-header__icons {
+    display: flex;
+    align-items: center
+}
+.main-header__icons i {
+    margin-left: 20px;
+}
+.magnifying-glass  {
+    position: relative;
+    z-index: -1;
+}
+.main-header__alert {
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: var(--red);
+}

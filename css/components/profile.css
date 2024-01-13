@@ -1,0 +1,74 @@
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 23px;
+}
+.profile__column {
+    display: flex;
+    align-items: center;
+}
+.profile__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.profile__header span, 
+.profile__header i {
+    color: var(--gray);
+    font-size: 15px;
+}
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+    margin-right: 15px;
+}
+.profile-chevron {
+    margin: 5px 0 0 5px;
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border: 1px solid var(--gray);
+    border-radius: 50%;
+    color: var(--gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-chevron i {
+    font-size: 8px;
+}
+
+.profile-music {
+    height: 20px;
+    width: auto;
+    background-color: white;
+    border: 2px solid #2F9241;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    padding: 5px 7px;
+}
+.profile-music__title {
+    font-size: 10px;
+    margin-right: 7px;
+}
+.profile-music__play {
+    color: #2F9241;
+}
+.profile-text {
+    display: flex;
+    flex-direction: column;
+}
+.profile-message {
+    color: var(--gray);
+    margin-top: 5px;
+    font-size: 13px;
+}
+.profile-message-time {
+    color: var(--gray);
+    font-size: 13px;
+    margin-bottom: 20px;
+}

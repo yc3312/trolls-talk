@@ -1,8 +1,9 @@
 header {
     position: fixed;
-    width: 420px;
+    width: 440px;
     height: 60px;
     background-color: white;
+    z-index: 4;
 }
 .screen-header {
     display: flex;

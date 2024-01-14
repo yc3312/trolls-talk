@@ -1,0 +1,24 @@
+.btn-section {
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 22px;
+}
+.section-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    margin-bottom: 3px;
+}
+.section-icon i {
+    font-size: 25px;
+}

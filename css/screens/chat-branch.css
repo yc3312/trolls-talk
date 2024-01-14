@@ -1,8 +1,8 @@
 .chat-branch-body {
-    background-color: var(--yellow);
+    background-color: var(--light-pink);
 }
 .chat-branch-header {
-    background-color: var(--yellow);
+    background-color: var(--light-pink);
 }
 .chat-branch-main {
     position: relative;
@@ -10,12 +10,15 @@
 }
 .chat-branch__main-header {
     position: fixed;
-    height: 60px;
+    height: 55px;
     margin-top: 25px;
-    background-color: var(--yellow);
+    background-color: var(--light-pink);
+}
+.chat-branch__column a {
+    color: black;
 }
 .chat-branch__column a:active {
-    color: black;
+    color: var(--pink);
 } 
 .chat-branch__column {
     display: flex;
@@ -37,15 +40,23 @@
     display: flex;
     flex-direction: column;
 }
-.chat-branch__profile__column span:last-child {
+.chat-branch__profile__column:nth-child(2) span:last-child {
     margin-top: 8px;
 }
 .message-bubble {
-    width: 220px;
-    padding: 8px;
+    width: 210px;
+    height: 50px;
+    padding: 5px 12px;
     background-color: white;
     border-radius: 14px;
     border-top-left-radius: 0;
+    display: flex;
+    align-items: center;
+}
+.message-time {
+    font-size: 10px;
+    margin: 73px 0px 0px 5px;
+    color: var(--gray);
 }
 
 @keyframes Up {
@@ -67,13 +78,15 @@
 .chat-branch__reply__box {
     background-color: white;
     height: 20px;
-    width: 390px;
+    width: 375px;
     padding: 15px;
+    border: none;
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .chat-branch__reply__btn {
     padding: 15px;
     display: flex;
@@ -88,7 +101,35 @@ button{
     border: 1px solid var(--light-gray);
     border-radius: 10px;
     box-shadow: 1px 4px 4px var(--gray);
+    cursor: pointer;
 }
 button:active {
     box-shadow: 1px 1px 0 var(--gray);
+}
+.capital,
+.number,
+.delete,
+.send {
+    position: relative;
+}
+.capital__desc,
+.number__desc,
+.delete__desc,
+.send__desc {
+    background-color: var(--pink);
+    border: none;
+    height: 18px;
+    width: 55px;
+    border-radius: 6px;
+    color: white;
+    position: absolute;
+    bottom: -10px;
+    left: 12px;
+    opacity: 0;
+}
+.capital__desc:hover,
+.number__desc:hover,
+.delete__desc:hover,
+.send__desc:hover {
+    opacity: 0.85;
 }

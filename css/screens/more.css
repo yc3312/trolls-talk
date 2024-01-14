@@ -1,0 +1,83 @@
+.more__btn-section {
+    justify-content: space-between;
+    margin: 10px 0px 0px 5px;
+}
+.more__bg-section {
+    background-color: var(--light-pink);
+    height: 200px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 0px 20px;
+    box-sizing: border-box;
+}
+.more__bg-section__column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.wallet {
+    display: flex;
+    align-items: center;
+}
+.wallet span{
+    font-weight: bold;
+    font-size: 18px;
+}
+.wallet i {
+    color: var(--gray);
+    font-size: 13px;
+    margin: 3px 0px 0px 8px;
+}
+
+.piggy-bank {
+    background-color: var(--pink);
+    width: 338px;
+    padding: 6px 10px 9px 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.piggy-bank span {
+    font-size: 12.5px;
+    color: white;
+}
+.piggy-bank i {
+    color: white;
+}
+
+.piggy-bank .chevron {
+    color: var(--gray);
+    font-size: 13px;
+}
+.pay i {
+    font-size: 14px;
+}
+.pay span {
+    font-weight: bold;
+}
+.pay__dollar {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.more__bg-section__last__column {
+    display: flex;
+    align-items: center;
+}
+.more__bg-section__last__column span {
+    margin: 0px 14px;
+}
+.more__bg-section__last__column span:first-child{
+    margin-left: 0px;
+}
+.last__column__div {
+    height: 13px;
+    width: 1px;
+    background-color: var(--gray);
+}
+.buy i {
+    margin-right: 10px;
+}

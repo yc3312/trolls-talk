@@ -32,8 +32,9 @@
           <i class="fa-solid fa-gear fa-lg"></i>
         </div>
       </div>
+      <div class="main-header__margin-bottom"></div>
 
-      <div class="profile">
+      <div class="profile frineds__profile__section">
         <div class="profile__column">
           <img class="profile-img" src="img/poppy.jpg" />
           <span class="profile-name">Poppy</span>
@@ -85,7 +86,7 @@
 
       <div class="story">
         <div class="story-header">
-          <span>Story 2</span>
+          <span>Pung 2</span>
           <i class="fa-solid fa-chevron-up xs"></i>
         </div>
         <div class="story-contents">
@@ -93,7 +94,7 @@
             <div class="story-contents__making__story">
               <i class="fa-solid fa-plus fa-lg"></i>
             </div>
-            <span>Making Story</span>
+            <span>Making Pung</span>
           </div>
           <div class="story-contents__column">
             <div class="story-contents__story">
@@ -101,7 +102,7 @@
                 <img class="story_img" src="img/story.jpg" />
                 <img class="profile_img" src="img/poppy.jpg" />
               </div>
-              <span class="profile__title">My story</span>
+              <span class="profile__title">My Pung</span>
             </div>
           </div>
           <div class="story-contents__column">
@@ -118,10 +119,10 @@
       <div class="border-line story-border-line"></div>
 
       <a class="ad-link" href="https://github.com/yc3312/trolls-talk">
-        <div class="ad">
+        <button class="ad">
           <div class="ad-column">
             <div class="ad-column__above">
-              <img src="img/git.jpg" />
+              <i class="fa-brands fa-github" style="color: black"></i>
               <span>Go to My Github</span>
               <i class="fa-solid fa-chevron-right xs"></i>
             </div>
@@ -132,7 +133,7 @@
           <div class="ad-column">
             <img class="ad-column__right__img" src="img/dinkle.jpg" />
           </div>
-        </div>
+        </button>
       </a>
       <div class="border-line"></div>
 
@@ -220,7 +221,7 @@
             <a class="nav-bar__link" href="friends.html">
               <i
                 class="nav-bar__user fa-solid fa-user fa-xl"
-                style="color: black"
+                style="color: var(--pink)"
               ></i>
             </a>
           </li>
@@ -243,6 +244,17 @@
         </ul>
       </div>
     </main>
+
+    <div id="friends-splash-screen">
+      <i class="spinner fa-solid fa-spinner fa-2x"></i>
+      <span>Loading...</span>
+    </div>
+
+    <div id="no-mobile">
+      <i class="fa-solid fa-mobile-screen fa-3x"></i>
+      <span class="text__title">Your Screen is too big.</span>
+      <span class="text__subtitle">We only support mobile.</span>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/6b1746e084.js"

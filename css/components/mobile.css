@@ -1,0 +1,38 @@
+#no-mobile {
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    width: 100vw;
+    background-color: var(--light-pink);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+}
+#no-mobile .text__title {
+    font-size: 30px;
+    font-weight: bold;
+    position: fixed;
+    top: 270px;
+}
+#no-mobile .text__subtitle {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 5px;
+    position: fixed;
+    top: 310px;
+}
+
+#no-mobile i {
+    position: fixed;
+    top: 200px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:500px) {
+    #no-mobile {
+        display: none;
+    }
+}

@@ -1,8 +1,8 @@
 .nav-bar {
-    background-color: var(--light-gray);
-    width: 415px;
+    background-color: var(--light-pink);
+    width: 100%;
     box-sizing: border-box;
-    border-top: 1px solid rgba(1,1,1,0.1);
+    border-top: 1px solid var(--light-pink) ;
     padding: 20px 35px;
     position: fixed;
     bottom: 0;

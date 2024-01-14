@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Friends</title>
+  </head>
+  <body>
+    <header>
+      <div class="screen-header">
+        <div class="screen-header__time">10:04</div>
+        <div class="screen-header__icons">
+          <i class="fa-solid fa-volume-xmark"></i>
+          <i class="fa-solid fa-wifi"></i>
+          <i class="fa-solid fa-chart-simple"></i>
+          <i class="fa-solid fa-battery-three-quarters"></i>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="index-welcome">
+        <span class="welcome__title">This is Trolls-Talk</span>
+        <div class="welcome__subtitle">
+          <span> If you have a Trolls-Talk Account, </span>
+          <span>log in with your email or phone number. </span>
+        </div>
+      </div>
+
+      <form action="friends.html" method="get" id="login-form">
+        <input
+          name="username"
+          type="text"
+          placeholder="Email or phone number"
+        />
+        <input name="password" type="password" placeholder="password" />
+        <input type="submit" value="Log In" />
+        <input type="submit" value="Sign Up" />
+        <a href="#">Find Kokoa Account or password</a>
+      </form>
+    </main>
+
+    <div id="index-splash-screen">
+      <i class="fa-solid fa-comments"></i>
+    </div>
+
+    <div id="no-mobile">
+      <i class="fa-solid fa-mobile-screen fa-3x"></i>
+      <span class="text__title">Your Screen is too big.</span>
+      <span class="text__subtitle">We only support mobile.</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6b1746e084.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -5,6 +5,9 @@
 @import "css/components/main-header.css";
 @import "css/components/ad.css";
 @import "css/components/nav-bar.css";
+@import "css/components/btn.css";
+@import "css/components/splash-screen.css";
+@import "css/components/mobile.css";
 
 
 /*screens*/
@@ -12,14 +15,20 @@
 @import "css/screens/chat.css";
 @import "css/screens/chat-branch.css";
 @import "css/screens/shopping.css";
+@import "css/screens/more.css";
+@import "css/screens/index.css";
 
 @import "variables.css";
 @import "reset.css";
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
     height: 1000vh;
-    width: 400px;
+    width: 440px;
     position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 main {
     padding: 15px;

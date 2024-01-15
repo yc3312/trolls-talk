@@ -4,12 +4,18 @@
     width="250"
     height="250" />
 </p>
+<br>
 
 ## Trolls-Talk v1.0
 개발 기간 2024.01.12 ~ 2024.01.15
 
+<br>
+
 ## Trolls-Talk 주소
 [Trolls-Talk 바로가기](https://yc3312.github.io/trolls-talk/index.html)
+
+<br>
+
 
 ## Project 소개
 **HTML과 CSS를 활용한 카카오톡 클론 코딩.<br>**
@@ -18,6 +24,8 @@ HTML과 CSS 활용 능력을 기르기 위함이 목적입니다. 트롤을 주�
 Kakao Talk clone coding using HTML and CSS.<br>
 The purpose of this project is to develop HTML and CSS skills.
 I tried making it fun with trolls as a theme.
+
+<br>
 
 ## Guide
 ### Requirements
@@ -28,6 +36,7 @@ You need :
 ```
 $ git clone https://github.com/yc3312/trolls-talk.git
 ```
+<br>
 
 ## Stacks
 ### Environment
@@ -41,6 +50,7 @@ $ git clone https://github.com/yc3312/trolls-talk.git
   <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
   <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 </div>
+<br>
 
 ## Screens
 |첫 페이지|로그인|로딩 페이지|
@@ -54,7 +64,7 @@ $ git clone https://github.com/yc3312/trolls-talk.git
 |쇼핑|더보기|스크린 크기 안내 페이지|
 |----|------|---------------------| 
 |<img src="https://github.com/yc3312/trolls-talk/assets/113664599/22893b76-c406-4139-af77-9ad733490ad1" width="350" height="400" />|<img src="https://github.com/yc3312/trolls-talk/assets/113664599/ebc1d264-7204-49e8-ace4-906a85222568" width="350" height="400" />|<img src="https://github.com/yc3312/trolls-talk/assets/113664599/c3039509-1287-4cfa-8011-8a04a7f2f8a8" width="350" height="400" />|
-
+<br>
 
 ## 주요 기능
 ### 📢 모든 페이지
@@ -75,4 +85,37 @@ $ git clone https://github.com/yc3312/trolls-talk.git
   * 버튼 설명
 ### 📢 친구, 채팅 페이지
 * :hover, transition - 광고 버튼
+<br>
+
+## 디렉토리 구조
+```
+ ┣ 📂css
+ ┃ ┣ 📂components
+ ┃ ┃ ┣ 📜ad.css
+ ┃ ┃ ┣ 📜border-line.css
+ ┃ ┃ ┣ 📜btn.css
+ ┃ ┃ ┣ 📜main-header.css
+ ┃ ┃ ┣ 📜mobile.css
+ ┃ ┃ ┣ 📜nav-bar.css
+ ┃ ┃ ┣ 📜profile.css
+ ┃ ┃ ┣ 📜screen-header.css
+ ┃ ┃ ┗ 📜splash-screen.css
+ ┃ ┗ 📂screens
+ ┃ ┃ ┣ 📜chat-branch.css
+ ┃ ┃ ┣ 📜chats.css
+ ┃ ┃ ┣ 📜friends.css
+ ┃ ┃ ┣ 📜index.css
+ ┃ ┃ ┣ 📜more.css
+ ┃ ┃ ┗ 📜shopping.css
+ ┣ 📜chat-branch.html
+ ┣ 📜chats.html
+ ┣ 📜friends.html
+ ┣ 📜index.html
+ ┣ 📜more.html
+ ┣ 📜README.md
+ ┣ 📜reset.css
+ ┣ 📜shopping.html
+ ┣ 📜styles.css
+ ┗ 📜variables.css
+```
 

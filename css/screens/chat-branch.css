@@ -32,8 +32,57 @@
     margin-right: 20px;
 }
 
+.chat-branch__date {
+    margin: 90px 0 15px 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--pink);
+    opacity: 0.9;
+    color: white;
+    height: 25px;
+    width: 80px;
+    font-size: 9px;
+    border-radius: 10px;
+    animation: profile_translate 1s ease-in-out;
+}
+
+@keyframes profile_scale {
+    50% {
+        transform: scale(1.1,1.1);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+@keyframes profile_translate {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.move-img {
+    animation: profile_scale 1s ease-in-out;    
+}
+.move-bubble__name {
+    animation: profile_translate 1s ease-in-out;
+}
+.move-bubble__text {
+    animation: profile_translate 1s ease-in-out;
+    animation-delay: 0.1s;
+}
+.move-bubble__time {
+    animation: profile_translate 1s ease-in-out;
+    animation-delay: 0.2s;
+}
+
 .chat-branch__profile {
-    margin-top: 100px;
     display: flex;
 }
 .chat-branch__profile__column {

@@ -55,15 +55,15 @@ $ git clone https://github.com/yc3312/trolls-talk.git
 ## Screens
 |첫 페이지|로그인|로딩 페이지|
 |---------|-----|-----------|  
-|<img src="https://github.com/yc3312/trolls-talk/assets/113664599/0eda4deb-2aa9-49d4-9f01-24efc5971fd7" width="350" height="400" />|<img src="https://github.com/yc3312/trolls-talk/assets/113664599/de1c6e8d-8ba4-4c58-b1ef-0f64f12d0bdb" width="350" height="400" />|<img src="https://github.com/yc3312/trolls-talk/assets/113664599/92cf3c5e-708b-4511-8edd-d8ce8a7536ea" width="350" height="400" />|
+|<img src="https://github.com/yc3312/trolls-talk/assets/113664599/0eda4deb-2aa9-49d4-9f01-24efc5971fd7" width="380" height="400" />|<img src="https://github.com/yc3312/trolls-talk/assets/113664599/de1c6e8d-8ba4-4c58-b1ef-0f64f12d0bdb" width="380" height="400" />|<img src="https://github.com/yc3312/trolls-talk/assets/113664599/92cf3c5e-708b-4511-8edd-d8ce8a7536ea" width="380" height="400" />|
 
 |친구|채팅|Branch와의 채팅|
 |---------|-----|-----------| 
-|<img src="https://github.com/yc3312/trolls-talk/assets/113664599/1bddcd33-a045-4324-bae0-a3544e5db6ce" width="350" height="400" />|<img src="https://github.com/yc3312/trolls-talk/assets/113664599/22945a32-b67e-4f45-b7c6-d6846370c29c" width="350" height="400" />|<img src="https://github.com/yc3312/trolls-talk/assets/113664599/819ea8d8-4625-4863-9223-41650c2b6a67" width="350" height="400" />|
+|<img src="https://github.com/yc3312/trolls-talk/assets/113664599/1bddcd33-a045-4324-bae0-a3544e5db6ce" width="380" height="400" />|<img src="https://github.com/yc3312/trolls-talk/assets/113664599/22945a32-b67e-4f45-b7c6-d6846370c29c" width="380" height="400" />|<img src="https://github.com/yc3312/trolls-talk/assets/113664599/819ea8d8-4625-4863-9223-41650c2b6a67" width="380" height="400" />|
 
 |쇼핑|더보기|스크린 크기 안내 페이지|
 |----|------|---------------------| 
-|<img src="https://github.com/yc3312/trolls-talk/assets/113664599/22893b76-c406-4139-af77-9ad733490ad1" width="350" height="400" />|<img src="https://github.com/yc3312/trolls-talk/assets/113664599/ebc1d264-7204-49e8-ace4-906a85222568" width="350" height="400" />|<img src="https://github.com/yc3312/trolls-talk/assets/113664599/c3039509-1287-4cfa-8011-8a04a7f2f8a8" width="350" height="400" />|
+|<img src="https://github.com/yc3312/trolls-talk/assets/113664599/22893b76-c406-4139-af77-9ad733490ad1" width="380" height="400" />|<img src="https://github.com/yc3312/trolls-talk/assets/113664599/ebc1d264-7204-49e8-ace4-906a85222568" width="380" height="400" />|<img src="https://github.com/yc3312/trolls-talk/assets/113664599/c3039509-1287-4cfa-8011-8a04a7f2f8a8" width="380" height="400" />|
 <br>
 
 ## 주요 기능
